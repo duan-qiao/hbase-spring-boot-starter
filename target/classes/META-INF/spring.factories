@@ -1,2 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  cn.edu.seu.sky.config.HBaseAutoConfiguration

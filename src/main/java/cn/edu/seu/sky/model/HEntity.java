@@ -6,14 +6,19 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author xiaotian.zhou
+ * @email xiaotian.zhou@amh-group.com
  * @date 2020/11/5 11:32
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class HPutInfo<T> {
-
+public class HEntity<T> {
+    /**
+     * rowKey
+     */
     private String rowKey;
-
-    private T value;
+    /**
+     * 值
+     */
+    private T entity;
 }

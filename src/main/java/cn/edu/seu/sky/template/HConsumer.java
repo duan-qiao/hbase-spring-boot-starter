@@ -1,4 +1,4 @@
-package cn.edu.seu.sky.callback;
+package cn.edu.seu.sky.template;
 
 /**
  * @author xiaotian.zhou

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: hbase-spring-boot-starter
+  data:
+    hbase:
+      host: 110.159.121.179,110.159.121.136,110.159.121.158
+      port: 2181
+      node-parent: /hbase

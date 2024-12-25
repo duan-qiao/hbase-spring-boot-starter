@@ -1,7 +1,5 @@
 package cn.edu.seu.sky.annotation;
 
-import org.springframework.core.annotation.AliasFor;
-
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -17,11 +15,17 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface HTable {
     /**
+     * 命名空间
+     */
+    String namespace() default "";
+
+    /**
      * hbase表名
      */
-    @AliasFor("name")
-    String value() default "";
-
-    @AliasFor("value")
     String name() default "";
+
+    /**
+     * 列属性
+     */
+    String family() default "default";
 }

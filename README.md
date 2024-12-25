@@ -90,5 +90,5 @@ public class ReverseGeoDao {
 ```
 更多api
 ```
-com.qmove.hbase.template.HbaseOperations
+cn.edu.seu.sky.template.HbaseOperations
 ```
